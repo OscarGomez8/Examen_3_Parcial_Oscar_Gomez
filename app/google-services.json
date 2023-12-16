@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "772720693883",
+    "project_id": "examen-3-parcial-oscar-yair",
+    "storage_bucket": "examen-3-parcial-oscar-yair.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772720693883:android:e9fae8de6c6959467188de",
+        "android_client_info": {
+          "package_name": "com.example.examen_3_parcial_oscar_gomez"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD70BsyENz5CjV0rOTrrrXJ8f5kqv6WQMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

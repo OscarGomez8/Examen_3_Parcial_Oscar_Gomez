@@ -1,0 +1,62 @@
+<!-- item_entrevista.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/imageViewEntrevista"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile" />
+
+    <!-- Agrega más TextViews u otros elementos según tus necesidades -->
+
+    <!-- Botón de reproducir -->
+
+    <!-- Botón de eliminar -->
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewEntrevista"
+        android:layout_marginTop="-106dp"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDescripcion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewEntrevista"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="-73dp"
+        android:layout_toEndOf="@id/imageViewEntrevista"
+        android:text="Descripción de la entrevista"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnReproducir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewEntrevista"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-92dp"
+        android:layout_marginEnd="5dp"
+        android:src="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/btnEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnReproducir"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="4dp"
+        android:src="@android:drawable/ic_delete" />
+
+
+</RelativeLayout>
